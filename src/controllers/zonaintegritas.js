@@ -31,7 +31,7 @@ exports.postDataLaporan = (req, res, next)=>{
     const tempatKejadian = req.body.tempatKejadian
     const waktuKejadian = req.body.waktuKejadian
     const detailPengaduan = req.body.detailPengaduan
-    const image = req.file.path
+    const image = req.body.image
     const date = req.body.date
 
     const data = [{
